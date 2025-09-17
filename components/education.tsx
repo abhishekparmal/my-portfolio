@@ -4,17 +4,17 @@ import { motion } from "framer-motion"
 
 const education = [
   {
-    institution: "Maulana Azad National Urdu University, Hyderabad",
-    degree: "B.Tech (Lateral Entry), Computer Science",
+    institution: "SRTM University, Nanded",
+    degree: "Bsc.Computer Science",
     period: "Oct 2022 - May 2025",
-    gpa: "CGPA: 8.66/10",
+    gpa: "CGPA: 8.28/10",
     icon: "🎓",
   },
   {
-    institution: "Maulana Azad National Urdu University, Hyderabad",
-    degree: "Diploma in Computer Science and Engineering",
-    period: "Aug 2019 - Jun 2022",
-    gpa: "CGPA: 9.78/10",
+    institution: "DM Collage, Latur Maharastra",
+    degree: "Higher Scondery School",
+    period: "Aug 2020 - Jun 2021",
+    gpa: "Percentage: 84.64",
     icon: "🏫",
   },
 ]

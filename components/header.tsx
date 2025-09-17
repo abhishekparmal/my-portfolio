@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const navItems = [
   { name: "About", href: "#" },
-  { name: "Experience", href: "#experience" },
+  // { name: "Experience", href: "#experience" },
   { name: "Education", href: "#education" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
@@ -44,7 +44,7 @@ export default function Header() {
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center">
               <Link href="/" className="text-lg font-bold">
-                Haque.
+                Abhi.
               </Link>
             </div>
             <div className="w-10 h-10"></div> {/* Placeholder for theme toggle */}
@@ -64,7 +64,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="text-lg font-bold">
-              Haque.
+              Abhi.
             </Link>
           </div>
 

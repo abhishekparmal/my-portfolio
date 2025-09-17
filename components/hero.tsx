@@ -19,18 +19,18 @@ export default function Hero() {
           className="space-y-6 md:col-span-2"
         >
           <div className="space-y-2">
-            <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Merajul Haque</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Abhishek Parmal</h1>
             <p className="text-lg sm:text-xl text-muted-foreground">Software Engineer</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Mail className="h-4 w-4" />
-              <a href="mailto:haquedot@gmail.com">haquedot@gmail.com</a>
+              <a href="mailto:haquedot@gmail.com">abhishekparmal512@gmail.com</a>
             </div>
             <div className="flex items-center gap-1">
               <MapPin className="h-4 w-4" />
-              <span>Hyderabad, India</span>
+              <span>Maharastra, India</span>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-2 sm:gap-3">
             <Link
-              href="/MerajResumeFR.pdf"
+              href="/Abhi_Resume.pdf"
               target="_blank"
               download
             >
@@ -51,7 +51,7 @@ export default function Hero() {
               </Button>
             </Link>
             <Link
-              href="https://github.com/haquedot"
+              href="https://github.com/abhishekparmal/"
               target="_blank"
             >
               <Button variant="outline" size="sm" className="text-xs sm:text-sm">
@@ -59,7 +59,7 @@ export default function Hero() {
               </Button>
             </Link>
             <Link
-              href="mailto:haquedot@gmail.com"
+              href="mailto:abhishekparmal512@gmail.com"
               target="_blank"
             >
               <Button variant="outline" size="sm" className="text-xs sm:text-sm">
@@ -67,7 +67,7 @@ export default function Hero() {
               </Button>
             </Link>
             <Link
-              href="https://x.com/haquedot"
+              href=""
               target="_blank"
             >
               <Button variant="outline" size="sm" className="text-xs sm:text-sm">
@@ -75,7 +75,7 @@ export default function Hero() {
               </Button>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/haquedot/"
+              href="https://www.linkedin.com/in/abhishekparmal/"
               target="_blank"
             >
               <Button variant="outline" size="sm" className="text-xs sm:text-sm">

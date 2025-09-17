@@ -10,15 +10,16 @@ import Loading from "@/components/loading"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Merajul Haque - Software Developer",
-  description: "Portfolio website of Merajul Haque, a Software Developer",
+  title: "Abhishek Parmal - Software Developer",
+  description: "Portfolio website of Abhishek Parmal, a Software Developer",
   icons: {
     icon: [
-      { url: '/haquedot.svg', sizes: 'any', type: 'image/x-icon' },
-      { url: '/haquedot.svg', sizes: '16x16', type: 'image/png' },
-      { url: '/haquedot.svg', sizes: '32x32', type: 'image/png' },
+      { url: '/Abhishek2.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/Abhishek2.ico', sizes: 'any', type: 'image/x-icon' },
+      { url: '/Abhishek2.ico', sizes: '16x16', type: 'image/png' },
+      { url: '/Abhishek2.ico', sizes: '32x32', type: 'image/png' },
     ],
-    apple: '/haquedot.svg',
+    apple: '/Abhishek2.svg',
   },
 }
 
@@ -35,7 +36,7 @@ export default function RootLayout({
             <Header />
             <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">{children}</main>
             <footer className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Haque. All rights reserved.
+              © {new Date().getFullYear()} Abhishek All rights reserved.
             </footer>
           </Suspense>
         </ThemeProvider>
